@@ -37,7 +37,6 @@ const handleinput=(e)=>{
 }
   return (
     <div className="homepagewrapper">
-      {/* <Homenew/> */}
         <div className="formwrapper">
             <img className="homepagelogo" src="/logo.png" />
     <h4 className="mainlabel">Enter Invitation Id</h4>
