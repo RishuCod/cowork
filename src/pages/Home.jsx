@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {v4 as uuidv4} from 'uuid'
-import Homenew from './homenew'
 import toast from 'react-hot-toast'
-//import toast from 'react-hot-toast'
+
 
 export default function Home() {
 const [roomId,setRoomId]=useState("")
@@ -38,7 +37,6 @@ const handleinput=(e)=>{
 }
   return (
     <div className="homepagewrapper">
-      {/* <Homenew/> */}
         <div className="formwrapper">
             <img className="homepagelogo" src="/logo.png" />
     <h4 className="mainlabel">Enter Invitation Id</h4>
