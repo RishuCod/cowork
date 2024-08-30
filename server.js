@@ -13,7 +13,14 @@ const app = express()
 const usersocketmap={}
 
 const server=http.createServer(app)
-const io=new Server(server)
+const io=new Server(server, {
+    cors: {
+        origin: '/',
+        methods: ['GET', 'POST'],
+        allowedHeaders: ['Content-Type'], 
+        credentials: true
+    }
+})
 app.use(express.static('dist'))
 
 app.use((req,res,next)=>{
