@@ -1,0 +1,138 @@
+
+.homepagewrapper{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-image: url(https://images.hdqwalls.com/wallpapers/lofi-girl-relaxing-morning-time-ce.jpg);
+  background-size: cover;
+
+  color: white;
+height: 100vh;
+ .formwrapper{
+  background: black;
+  padding:20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+ }
+}
+footer{
+  position:fixed;
+  bottom:0;
+  color: black;
+}
+footer a{
+color:black;
+
+}
+.inputGroup{
+  display:flex;
+  flex-direction:column;
+
+}
+.mainlabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.homepagelogo{
+  height: 80px;
+  margin-bottom: 30px; 
+  margin-left: 70%;
+}
+.inputbox{
+  padding:10px;
+  border-radius:5px;
+  outline:none;
+  border:none;
+  margin-bottom:14px;
+  background: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn{
+  border:none;
+  padding:7px;
+  border-radius:5px;
+  font-size:16px;
+  cursor:pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn{
+  background: white;
+  width: 100px;
+  margin-left: auto;
+}
+.joinbtn:hover, .leavebtn:hover, .copybtn:hover{
+  background-color: rgb(20, 18, 18);
+  color: white;
+}
+.createinfo{
+  margin:0 auto;
+  margin-top: 20px;
+  
+}
+.createnewbtn{
+  color: white;
+  text-decoration: none;
+  border-bottom:1px solid white;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.createnewbtn:hover{
+  color: wheat;
+
+}
+.mainwrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+
+}
+
+.aside{
+  background:black;
+  padding:16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideinner{
+  flex:1
+}
+
+.clientslist{
+  display:flex;
+  align-items:center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.client{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.logo{
+  border-bottom:1px solid grey;
+  padding-bottom:5px;
+}
+.logoimage{
+height:70px;
+}
+.leavebtn, .copybtn{
+  width: 100%;
+  margin-top: 20px;
+background-color: white;
+color: black;
+}
+.CodeMirror{
+min-height: 100vh;
+font-size: 16px;
+font-weight: bold;
+
+line-height: 1.6;
+}
