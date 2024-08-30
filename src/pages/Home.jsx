@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {v4 as uuidv4} from 'uuid'
-import Homenew from './homenew'
 import toast from 'react-hot-toast'
-//import toast from 'react-hot-toast'
+
 
 export default function Home() {
 const [roomId,setRoomId]=useState("")
