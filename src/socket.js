@@ -6,10 +6,5 @@ export const initscoket =async()=>{
         timeout: 10000, 
         transports: ['websocket'],
     };
-    const backendUrl = import.meta.env.VITE_APP_BACKEND_URL;
-    const protocol = backendUrl.startsWith('https') ? 'wss' : 'ws';
-    const socketUrl = backendUrl.replace(/^http/, protocol);
-
-    return io(socketUrl, options);
-    
+    return io(import.meta.env.VITE_APP_BACKEND_URL,options)
 }

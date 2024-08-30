@@ -17,7 +17,7 @@ const socketref=useRef(null)
 const handleErrors= (e)=>{
   console.log("socket error",e)
   toast.error('Socket connection failed')
-//  reactnavigator("/",{replace:true})
+ reactnavigator("/",{replace:true})
 }
 
 const [clientslist,setclients]=useState([])
